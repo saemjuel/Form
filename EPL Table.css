@@ -1,0 +1,211 @@
+body{
+    background: rgb(49,49,49);
+}
+
+.main{
+    width: 40%;
+    min-height: 400px;
+    background-color: b; 
+    float: left;  
+    margin: 3% 30%;
+
+}
+table{
+    background-color: burlywood;
+    font-size: 14px;
+    font-family: calibri regular;
+    
+}
+table, th, td{
+    border-collapse: collapse;
+    
+}
+
+td{
+    border: 1px solid rgb(141,141,141);
+    text-align: center;
+}
+
+.top{
+    background-color: rgb(70,70,70);
+    color: white;
+    width: 99%;
+    font-family: calibri regular;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    
+}
+
+.all{
+    width: 100%;
+    display: flex;
+}
+
+.total{
+    background-color: rgb(120, 120, 120);
+    width: 33.3%;
+    height: 25px;
+    text-align: center;
+}
+
+.total p{
+    font-size: 14px;
+    font-family: calibri regular;
+    margin-top: 3px;
+    color: white;
+}
+
+.home{
+    background-color: rgb(234, 234, 234);
+    width: 33.3%;
+    height: 25px;
+    text-align: center;
+}
+
+.home p{
+    font-size: 14px;
+    font-family: calibri regular;
+    margin-top: 3px;
+    color: black;
+}
+.away{
+    background-color: rgb(234, 234, 234);
+    width: 33.3%;
+    height: 25px;
+    border-left: 1px solid black;
+    text-align: center;
+}
+
+.away p{
+    font-size: 14px;
+    font-family: calibri regular;
+    margin-top: 3px;
+    color: black;
+}
+
+.head{
+    background-color: lightgray;
+
+}
+
+.odd{
+    background: rgb(247, 247, 247);
+}
+
+.even{
+    background: rgb(238, 238, 238);
+}
+
+.team{
+    text-align: left;
+}
+
+.points{
+    font-weight: bold;
+}
+
+.champion{
+    background: rgb(0,51,102);
+    color: white;
+}
+
+.europa{
+    background: rgb(159,159,0);
+    color: white;
+}
+
+.relegate{
+    background: rgb(151,0,0);
+    color: white;
+}
+
+.no{
+    text-align: right;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background: rgb(64,64,64);
+    margin-top: 1%;
+    flex-direction: column;
+    display: flex;
+}
+
+.champions-league{
+    width: 30%;
+    height: 27px;
+    margin-top: 5px;
+    float: left;
+    display: flex;
+}
+
+.champions-league p{
+    font-size: 13px;
+    font-family: calibri regular;
+    color: rgb(177,177,177);
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.color-one{
+    width: 20px;
+    height: 20px;
+    background: rgb(0,51,102) ;
+    border-radius: 5px;
+    border: 1px solid rgb(177,177,177);
+    margin-left: 5px;
+}
+
+.europa-league{
+    width: 30%;
+    height: 27px;
+    margin-top: 5px;
+    float: left;
+    display: flex;
+}
+
+.europa-league p{
+    font-size: 13px;
+    font-family: calibri regular;
+    color: rgb(177,177,177);
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.color-two{
+    width: 20px;
+    height: 20px;
+    background: rgb(159,159,0);
+    border-radius: 5px;
+    border: 1px solid rgb(177,177,177);
+    margin-left: 5px;
+}
+
+.relegated{
+    width: 30%;
+    height: 27px;
+    margin-top: 5px;
+    float: left;
+    display: flex;
+    
+}
+
+.relegated p{
+    font-size: 13px;
+    font-family: calibri regular;
+    color: rgb(177,177,177);
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.color-three{
+    width: 20px;
+    height: 20px;
+    background: rgb(151,0,0);
+    border-radius: 5px;
+    border: 1px solid rgb(177,177,177);
+    margin-left: 5px;
+}
